@@ -138,6 +138,13 @@ opacity:0;
 .about_me{
     color:darkgray
 }
+@media (max-width:576px){
+  .imgbackground:hover{
+    overflow: scroll;
+    border-radius:10px 50px 10px 50px;
+  } 
+  
+}
 /* style for project page */
 #project{
      background: linear-gradient(rgba(107, 208, 248, 0.383),rgba(87, 192, 241, 0.513));
